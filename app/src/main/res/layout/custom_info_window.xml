@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/infoPicture"
-        android:layout_width="164dp"
-        android:layout_height="164dp"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
         android:rotation="90"/>
