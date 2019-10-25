@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/cameraFragment">
+
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.samuelle.geocamera.view.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/camera_layout" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.samuelle.geocamera.view.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/map_layout" />
+</navigation>
